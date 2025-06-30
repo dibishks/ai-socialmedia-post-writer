@@ -20,8 +20,8 @@ This tool helps developers, content creators, and startup teams turn a single pi
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/social-post-gen.git
-cd social-post-gen
+git clone https://github.com/dibishks/ai-socialmedia-post-writer.git
+cd ai-socialmedia-post-writer
 npm install
 ```
 ````
@@ -71,9 +71,10 @@ curl --location 'http://localhost:3000/generate-all' \
 
 Each platform has a dedicated prompt file under `prompts/`. For example:
 
-- `prompts/twitter.prompt.txt`
-- `prompts/linkedin.prompt.txt`
-- `prompts/medium.prompt.txt`
+- `prompts/twitter.json`
+- `prompts/linkedin.json`
+- `prompts/medium.json`
+- `prompts/article.json`
 
 Update these files to control tone, format, or style.
 
@@ -122,5 +123,4 @@ Follow for tech + automation content → [@dibishks](https://x.com/dibishks)
 
 ```
 
-Let me know if you also want a `Dockerfile`, `postman.json`, or auto-deploy setup.
 ```
